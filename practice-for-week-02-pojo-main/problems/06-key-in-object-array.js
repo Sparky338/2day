@@ -38,9 +38,5 @@ let objArray = [
   { planet: "Earth", system: "Milky Way" }
 ];
 
-keyInObjectArray(objArray, 'planet'); // => true
-keyInObjectArray(objArray, 'age'); // => true
-keyInObjectArray(objArray, 'food'); // => false
-keyInObjectArray(objArray, 'animal'); // => false
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 module.exports = keyInObjectArray;
